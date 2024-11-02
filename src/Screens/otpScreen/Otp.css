@@ -1,0 +1,80 @@
+.OtpWrapper {
+    height: 100vh;
+    display: flex;
+    /* padding: 90px 180px; */
+    align-items: center;
+  }
+  .OtpContainer1 {
+    display: flex;
+    flex: 1;
+    gap: 45px;
+    height: 80%;
+    justify-content: center;
+  }
+  .OtpContents {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .OtpContentsDiv {
+    border: 1px solid #ededed;
+    box-shadow: 0px 8px 40px 0px #0000001a;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    padding: 40px;
+    border-radius: 8px;
+  }
+  .OtpContentsDivMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  .otpOutBox {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid  #DFDFD6;
+    border-radius: 8px;
+
+  }
+  .otpOutBox input {
+    width: 35px;
+    height: 35px;
+    border: none;
+    border-bottom: 1px solid #7B7B75;
+    outline: none;
+    padding-left: 14px;
+  }
+  .otpInput {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+.OtpContentsDiv h6 {
+    color: #7B7B75;
+    font-weight: 400;
+    font-size: 18px;
+}
+.OtpContentsDiv p {
+    font-weight: 400;
+    font-size: 15px;
+    color: #BABABA;
+}
+.resendLink {
+    color: #DAB803;
+    text-decoration: none;
+}
+  
+  
+  @media screen and (max-width: 800px) {
+      .OtpImage {
+          display: none;
+          
+      }
+  }
