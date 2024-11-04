@@ -1,83 +1,97 @@
 .IsWrapper {
-    height: 100vh;
-    display: flex;
-    /* padding: 90px 180px; */
-    align-items: center;
-  }
-  .IsContainer1 {
-    display: flex;
-    flex: 1;
-    gap: 45px;
-    height: 80%;
-    justify-content: center;
-  }
-  .IsContents {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .IsContentsDiv {
-    border: 1px solid #ededed;
-    box-shadow: 0px 8px 40px 0px #0000001a;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 25px;
-    padding: 40px;
-    border-radius: 8px;
-  }
-  .IsContentsDiv h4 {
-    color: #2D2D2C;
-    font-size: 22px;
-    font-weight: 500;
-  }
-  .IsContentsDiv h5 {
-    color: #7b7b75;
-    font-size: 18px;
-    font-weight: 400;
-  }
-  .IsContentsDiv h6 {
-    color: #7b7b75;
-    font-size: 16px;
-    font-weight: 500;
-  }
-
-  .isInput{
-    display: flex;
-    align-items: center;
-    gap: 5px;
-  }
-  .isInput input {
-    height: 45px;
-    width: 100%;
-    border-radius: 8px;
-    padding-left: 12px;
-    border: 1px solid #DFDFD6;
-  }
-.islabels {
-    display: flex;
-    align-items: center;
-    gap: 15px;
+  height: 100vh;
+  display: flex;
+  /* padding: 90px 180px; */
+  align-items: center;
 }
-  .islabel {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-  }
-  .islink {
-    color: #a98f02;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 400;
-  }
+.IsContainer1 {
+  display: flex;
+  flex: 1;
+  gap: 45px;
+  height: 80%;
+  justify-content: center;
+}
+.IsContents {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.IsContentsDiv {
+  border: 1px solid #ededed;
+  box-shadow: 0px 8px 40px 0px #0000001a;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 40px;
+  border-radius: 8px;
+}
+.IsContentsDiv h4 {
+  color: #2d2d2c;
+  font-size: 22px;
+  font-weight: 500;
+}
+.IsContentsDiv h5 {
+  color: #7b7b75;
+  font-size: 18px;
+  font-weight: 400;
+}
+.IsContentsDiv h6 {
+  color: #7b7b75;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.isInput {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.isInput input {
+  height: 45px;
+  width: 100%;
+  border-radius: 8px;
+  padding-left: 12px;
+  border: 1px solid #dfdfd6;
+}
+.islabels {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+.islabel {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.emailInput {
+  height: 45px;
+  width: 100%;
+  border-radius: 8px;
+  padding-left: 12px;
+  border: 1px solid #dfdfd6;
+}
+.islink {
+  color: #a98f02;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+.isflex {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+.validation{
+  color: red;
+  font-size: 12px;
+  font-weight: 400;
+
+}
 
 
-
-  
-  
-  @media screen and (max-width: 800px) {
-      .IsImage {
-          display: none;
-          
-      }
+@media screen and (max-width: 800px) {
+  .IsImage {
+    display: none;
   }
+}

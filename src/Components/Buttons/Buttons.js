@@ -4,7 +4,7 @@ import "./Buttons.css"
 const Buttons = ({label,buttonStyle,onPress,isDisabled}) => {
   return (
     <div>
-        <button className='main-button' style={buttonStyle} onClick={onPress} disabled={isDisabled}>{label}</button>
+        <button className='main-button' style={buttonStyle} onClick={onPress} disabled={isDisabled} type='submit'>{label}</button>
     </div>
   )
 }
